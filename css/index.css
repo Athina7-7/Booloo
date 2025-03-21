@@ -1,0 +1,23 @@
+body{
+    background-color: #87909D;
+}
+p{
+    font-weight: bold;
+    color: #041b39;
+}
+
+.contenedor_casita{
+    background-color: #CCD1D7;
+}
+
+.Boton_simple_avanzado{
+    background-color: white;
+    color: #041b39;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: large;
+    /* Borrar el marco negro que trae predeterminado el botón */
+    border: none;
+    outline: none;
+    border-radius: 15%;
+}

@@ -4,84 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/registro.css">
+    <link rel="stylesheet" href="/css/all.css">
 
-    <!-- Agregar la etiqueta Style aqui en el head, para modificar etiquetas de forma mas rapido -->
+    <!-- importación de recursos externos para diseño extra de la página-->
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/abang" rel="stylesheet">
+                
 </head>
 
 <body>
-    <nav>
-        <header>
-            <p><strong>Menú</strong></p>
-            <a href="index.html">Casita</a>
-            <a href="registro.html">Registrarse</a>
-            <a href="descrubre_mas.html">Descubre más</a>
-        </header>
-    </nav>
-    
 
     <main>
-        <p>Antes del registro quisieramos hacerte preguntas más <em>personales</em></p>
-        Apodo: <input type="text" placeholder="Cara de nalga"> <br>
-        Color favorito: <input type="color"> <br>
-        Día favorito del año: <input type="date">
+        <nav class="caja_registro">
+        <h1>REGISTRO</h1>
+        <h3 class="logo_txt">BOOLOO</h3>
+            <form action="">
+                Nombre: <input type="text">
+                Apellido: <input type="text">
+                Color favorito: <input type="text">
+                Correo electronico: <input type="text">
+                Contraseña: <input type="password">
+                <p><button class="boton_registro" type="submit"><a href="/index.html">Registrar</a></button></p>
+            </form>
 
-        <h1 class="titulos">Registro</h1>
-        <form action="">
-            <fieldset>
-                <legend>Registrate amiguito</legend>
-                Nombre de usuario: <input type="text"> <br>
-                Contraseña: <input type="password"> <br>
-            </fieldset>
-    
-            <fieldset>
-                <legend>Personaje favorito</legend>
-    
-                <label><input type="checkbox">Clarence</label>
-                <img src="img/clarence.jpg" alt="Imagen Clarence" width="250" height="">
-                <br>
-                <label><input type="checkbox">Doki</label>
-                <img src="img/doki.jfif"
-                    alt="Imagen deDoki" width="150" height="150">
-    
-            </fieldset>
-    
-            <a href="index.html"></a><button>Finalizar registro</button></a>
-        </form>
-        <!-- Otra sección -->
 
-        <section>
-            <h3>Caracteristicas de los boliches</h3>
-            <ul>
-                <li>Negro</li>
-                <li>Pesado</li>
-                <li>El número 8</li>
-            </ul>
-        
-            <h3>Ningún caracteristicas</h3>
-            <ol>
-                <li>No sé</li>
-                <li>Que tus ojos son perfectos</li>
-            </ol>
-        </section>
+
+        </nav>
         
     </main>
     
 
-    <footer>
-        <nav>
-            <fieldset>
-                <center>
-                    <ul>
-                        <li><a href="https://g.co/kgs/QLrbAkL">Correo</a></li>
-                        <li><a href="https://g.co/kgs/APsjj8K">Facebook</a></li>
-                        <li><a href="https://www.keyweo.com/es/seo/glosario/footer/">No sabemos</a></li>
-                    </ul>
-                </center>
-                
-            </fieldset>
-        </nav>
-    </footer>
 </body>
 
 </html>

@@ -1,0 +1,27 @@
+/* SELECTORES DE ETIQUETAS */
+/* 
+a {
+    color: rgb(29, 68, 68);
+    font-size: large;
+}
+} */
+
+
+/* SELECTORES DE CLASES */
+/* Selector de clases, el cual se hace a través del atributo clase en las etiquetas que deseemos */
+
+.caja_registro{
+    background-color: #9FA6B0;
+    color: #041b39;
+}
+.boton_registro{
+    background-color: white;
+    color: #041b39;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: large;
+    /* Borrar el marco negro que trae predeterminado el botón */
+    border: none;
+    outline: none;
+    border-radius: 15%;
+}
