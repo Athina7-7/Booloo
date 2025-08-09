@@ -1,0 +1,16 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Dependencias (si usas npm)
+node_modules/
+
+# Archivos de build
+dist/
+build/
+
+# Archivos de configuración local
+.env
+*.log
+
+aprendiendo.html
