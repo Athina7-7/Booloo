@@ -10,6 +10,10 @@ Este proyecto combina magia, humor y tecnología para crear una experiencia digi
 - 🔮 Interacción con IA tipo bola mágica
 - 🧠 Respuestas creativas y personalizadas
 
-(NO llevo mucho, poco a poco :) )
 ---
+## 🛠️ Estado del proyecto
+
+Este proyecto está en desarrollo.  
+*No llevo mucho, pero voy poco a poco :)*
+
 
