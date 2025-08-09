@@ -10,5 +10,6 @@ Este proyecto combina magia, humor y tecnología para crear una experiencia digi
 - 🔮 Interacción con IA tipo bola mágica
 - 🧠 Respuestas creativas y personalizadas
 
+(NO llevo mucho, poco a poco :) )
 ---
 
